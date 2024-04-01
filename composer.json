@@ -1,0 +1,24 @@
+{
+    "name": "vris111/collect",
+    "description": "some desc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vris111",
+            "email": "ruslansimanovic56@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
